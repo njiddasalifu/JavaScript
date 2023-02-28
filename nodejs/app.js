@@ -1,8 +1,9 @@
-const amount = 9
-if(amount<10){
-    console.log('Small number');
-} else {
-    console.log('Large number');
+// modules
+const john = 'john'
+const peter = 'peter'
+const sayHi = (name)=> {
+    console.log(`Hello there ${name}`)
 }
-
-console.log(`Hey it's my first node app`);
+sayHi('salif')
+sayHi(john)
+sayHi(peter)
