@@ -3,8 +3,8 @@
  var y = Math.floor(Math.random()*10-1);
     // counting No of guesses made by user
     // for correct guess
-    var guess =1;
-    var guesslimit = 3;
+    var guess =1; //this is the number to be guessed
+    var guesslimit = 3; // player has 3 attemps
     document.getElementById("submitguess").onclick=
     function(){
         // number guessed by user
