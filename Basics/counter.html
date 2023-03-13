@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter</title>
+</head>
+<body>
+    <p><h2>Hey, check the console in the dev tools to see your Counter.</h2></p>
+    <p id="root"></p>
     <script>
+        const counting = {
         function makeCounter() {
             var count = 0;
             return function() {
@@ -20,9 +25,9 @@
         console.log("Counter: " = count());
         console.log("Counter: " = count());
         console.log("Counter: " = count());
+    }
+
+        document.getElementById("root").innerHTML = counting;
     </script>
-</head>
-<body>
-    <p><h2>Hey, check the console in the dev tools to see your Counter.</h2></p>
 </body>
 </html>
