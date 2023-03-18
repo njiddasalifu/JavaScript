@@ -4,8 +4,11 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
+.h1 {
+    color: white;
+}
 header{
-    background-image: url('');
+    background-image: url('./images/image3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -49,5 +52,44 @@ nav li span {
 li a {
     padding: 5px;
     background-color: #fff;
-    text-decoration: non;
+    text-decoration: none;
+}
+
+.cart a {
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.image {
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.add-cart {
+position: relative;
+width: 20px;
+background-color: wheat;
+transition: all 0.3;
+opacity: 0;
+cursor: pointer;
+text-align: center;
+}
+.image:hover .cart1,
+image:hover .cart2,
+image:hover .cart3 {
+    bottom: 30px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
 }
