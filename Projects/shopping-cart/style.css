@@ -81,7 +81,7 @@ li a {
 .add-cart {
 position: relative;
 width: 20px;
-background-color: wheat;
+background-color: white;
 transition: all 0.3;
 opacity: 0;
 cursor: pointer;
