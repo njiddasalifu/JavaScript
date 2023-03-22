@@ -5,3 +5,4 @@ const person = {
         return this.fName + " " + this.lName;
     }
 };
+console.log(fullName);
