@@ -14,7 +14,7 @@ const todos= [{
     isCompleted: false
 },
 ];
-const todoText =todos.map(function(todo) {
+const todoText = todos.map(function(todo) {
     return todo.text;
 });
 document.getElementById("todos").innerHTML=todoText;
