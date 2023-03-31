@@ -13,6 +13,6 @@ function time(){
     }
 
     return (
-        <h2>Good morning!</h2>
+        <h2>Good {timeOfDay}!</h2>
     );
 }
