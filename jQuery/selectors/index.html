@@ -34,8 +34,7 @@
     <div id="container">
         <h1 id="heading1">Heading one</h1>
         <p id="para1">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-         Eaque nisi earum omnis perferendis ducimus maiores 
-         expedita, fugit architecto at molestiae deserunt aut,
+         Eaque nisi earum <span>omnis</span> perferendtis ducimus maiores 
          odit reiciendis molestias unde temporibus laborum consequuntur distinctio?</p>
     
          <h1 id="heading2">Heading one</h1>
@@ -50,6 +49,9 @@
 
     
 
-    <script src=""></script>
+    <script>
+        $('h1#heading1').hide();
+        $('p span').css('color', 'red');
+    </script>
 </body>
 </html>
