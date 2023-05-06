@@ -6,6 +6,12 @@ const student = {
     matricule: "FE100",
     dept: "CE",
     age: 20,
+    register: function(){
+        return (this.name,
+            this.age,
+            this.dept,
+            this.matricule)
+    }
 }
 
-console.log("The object here is student:", student)
+console.log(student.register)
