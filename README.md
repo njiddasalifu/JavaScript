@@ -1,6 +1,10 @@
 # JavaScript
-Here, I will upload all my javascript codes as I embark on my Javascript Full Stack jorney.
+Here, I will upload all my javascript codes as I embark on my Javascript jorney.
+
+The codes are separated into the following structure
+
+1. Basics: This is where all the js topics are covered with some sample codes
+
+2. Projects: This is where i put any mini project i do along.
  
-    We have two folders which include
- 1) Basics: this folder conatains all the basics leaning of js, including the learning of the syntax, varriales, functions, objects, etc
- 2) Projects: This folder conatins all the projects I am building in this course and is sub divided into folders with the name of the project done.
+  
