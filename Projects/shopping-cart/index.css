@@ -1,0 +1,45 @@
+#shopping-cart {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  img {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  input {
+    width: 50px;
+  }
+  
+  button {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .total {
+    text-align: right;
+  }
