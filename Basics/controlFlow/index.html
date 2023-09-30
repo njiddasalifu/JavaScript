@@ -8,7 +8,15 @@
 <body>
     <div id="root">
     <p>Please enter your fav fruit to find it in the store.</p>
-    Select: <input type="test" id="fruitInput" placeholder="enter your fav fruit" >
+    Select:
+        <select id="fruitInput">
+            <option value="oranges">Oranges</option>
+            <option value="apples">Apples</option>
+            <option value="bananas">Bananas</option>
+            <option value="cherries">Cherries</option>
+            <option value="mangoes">Mangoes</option>
+            <option value="papayas">Papayas</option>
+        </select>
     <button onclick="findFruit()">Submit</button>
     <p id="result"></p>
     </div>
