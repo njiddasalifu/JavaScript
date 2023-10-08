@@ -23,4 +23,8 @@ let newBook = [{
 
   Books.push(newBook);
 console.log(Books.length);
-  console.log(Books[2].title);
+console.log("after removing the fist element");
+Books.shift();
+console.log(Books.length);
+console.log(Books)
+//   console.log(Books[2].title);
