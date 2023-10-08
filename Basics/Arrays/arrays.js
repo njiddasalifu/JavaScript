@@ -23,8 +23,13 @@ let newBook = [{
 
   Books.push(newBook);
 console.log(Books.length);
-console.log("after removing the fist element");
-Books.shift();
-console.log(Books.length);
-console.log(Books)
+// console.log("after removing the fist element");
+// Books.shift();
+// console.log(Books.length);
+// console.log(Books)
 //   console.log(Books[2].title);
+
+//summing the pages of all the books in the array
+let sum = Books[0].pages + Books[1].pages + Books[2].pages;
+
+console.log(`Sum of all the books pages is : ${sum}`);
