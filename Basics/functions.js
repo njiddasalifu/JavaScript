@@ -1,4 +1,3 @@
-let x = myFunction(4, 3);
-function myFunction(a, b) {
-    return a*b;
-}
+let summer = ["June", "July", "August"];
+let index = summer.indexOf("June");
+console.log(index)
