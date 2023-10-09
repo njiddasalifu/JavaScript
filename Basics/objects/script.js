@@ -14,4 +14,4 @@ const student = {
     }
 }
 
-console.log(student.register)
+console.log(student.dept);
